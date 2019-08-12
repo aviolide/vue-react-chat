@@ -1,0 +1,5 @@
+--require ./test/init.js
+--timeout 1800000
+--reporter list
+--ui bdd
+--watch

@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictBindCallApply": true,
+    "allowJs": false,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "strict": false,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "isolatedModules": true,
+    "baseUrl": "./",
+    "lib": [
+      "es6",
+      "es7",
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "reflect-metadata",
+      "@types/node",
+      "@types/mocha",
+      "@types/chrome"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "src",
+    "../src/utils/api.ts"
+  ],
+  "files": [
+    "./src/modules.d.ts",
+    "node_modules/@types/node/globals.d.ts"
+  ]
+}
