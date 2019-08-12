@@ -48,8 +48,8 @@ module.exports = (env, args) => {
   const isTest = env === MODE_TEST;
   const isDev = env === MODE_DEVELOPMENT;
 
-  const PORT = 3001;
-  const HOST = 'localhost';
+  const PORT = 3000;
+  const HOST = '0.0.0.0';
 
   const config = {
     target: 'web',

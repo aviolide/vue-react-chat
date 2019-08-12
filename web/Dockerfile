@@ -14,5 +14,5 @@ ADD ./src /src
 ADD ./configs /configs
 ADD ./constants /constants
 ADD tsconfig.json /tsconfig.json
-CMD npm start
+CMD npm site:start:dev
 EXPOSE 3000

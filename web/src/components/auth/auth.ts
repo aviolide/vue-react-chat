@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import {Component} from 'vue-property-decorator';
-import { authModule, membersModule, messagesModule } from "../../ts/store";
-import { api } from "../../Connect";
-import { IMember } from "../../../../src/utils/types";
+import {authModule, membersModule, messagesModule} from '../../ts/store';
+import {api} from '../../Connect';
+import {IMember} from '../../../../src/utils/types';
 
 @Component({})
 export default class Auth extends Vue {

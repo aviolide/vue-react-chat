@@ -5,8 +5,10 @@ import {router} from './ts/routes';
 import App from './components/app.vue';
 import {sync} from 'vuex-router-sync';
 import Icon from './components/common/icon.vue';
+import Multiselect from 'vue-multiselect';
 
 Vue.component('Icon', Icon);
+Vue.component('multiselect', Multiselect);
 
 sync(store, router);
 window.onload = () => {

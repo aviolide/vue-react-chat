@@ -31,6 +31,10 @@
               span.focus-input100
 
           .wrap-input100
+            multiselect(
+              v-model="country",
+              :options="countriesDb"
+            )
             .validate-input
               input(
                 v-model="country"
