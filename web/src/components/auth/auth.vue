@@ -9,7 +9,7 @@
               v-model="username"
               class="input100"
               placeholder="Username"
-              )
+            )
             span.focus-input100
 
           .wrap-input100
@@ -18,7 +18,7 @@
                 v-model="firstname"
                 class="input100"
                 placeholder="First name"
-                )
+              )
               span.focus-input100
 
           .wrap-input100
@@ -31,10 +31,6 @@
               span.focus-input100
 
           .wrap-input100
-            multiselect(
-              v-model="country",
-              :options="countriesDb"
-            )
             .validate-input
               input(
                 v-model="country"
@@ -46,7 +42,7 @@
           .container-login100-form-btn
             button.login100-form-btn(
               @click="check()"
-              ) Login
+            ) Login
 
 
 </template>

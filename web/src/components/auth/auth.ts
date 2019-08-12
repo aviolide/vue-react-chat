@@ -3,6 +3,7 @@ import {Component} from 'vue-property-decorator';
 import {authModule, membersModule, messagesModule} from '../../ts/store';
 import {api} from '../../Connect';
 import {IMember} from '../../../../src/utils/types';
+import {countriesDb} from '../../../../constants/countries';
 
 @Component({})
 export default class Auth extends Vue {
@@ -10,6 +11,7 @@ export default class Auth extends Vue {
   firstname: string = '';
   lastname: string = '';
   country: string = '';
+  countries: Array<string> = countriesDb;
 
   errors = {
     username: true,

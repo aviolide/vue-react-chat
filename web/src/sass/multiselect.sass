@@ -1,0 +1,78 @@
+.alt-title
+  display: inline-block
+  width: 180px
+  padding-right: 20px
+  color: #dce0ee
+
+  &.multiselect-title
+    float: left
+    height: 33px
+    line-height: 33px
+
+.multiselect__select
+  position: absolute
+  width: 40px
+  height: 38px
+  right: 1px
+  top: 1px
+  padding: 4px 8px
+  text-align: center
+  transition: transform .2s ease
+
+.multiselect__input
+  background-color: inherit !important
+  border: 0 !important
+  height: 35px
+  float: left
+  border-radius: 3px
+  padding: 8px 20px
+  display: inline-block
+  color: #dce0ee
+
+  &:focus::placeholder
+    font-size: 13px
+
+  &::placeholder
+    font-weight: normal
+    color: #57b846
+    font-size: 0
+
+.multiselect__strong
+  padding: 0 20px !important
+  color: #dce0ee
+  border: 0 !important
+  height: 33px
+  float: left
+  background-color: #57b846 !important
+
+.multiselect--disabled
+  cursor: not-allowed !important
+  border-color: #57b846 !important
+  background-color: #57b846 !important
+
+.multiselect
+  div,
+  span,
+  input
+    transition: 0s !important
+    text-align: left
+
+.multiselect__option--disabled
+  cursor: not-allowed
+  background-color: #57b846
+
+.multiselect__content-wrapper
+  &::-webkit-scrollbar
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+    width: 10px
+
+  &::-webkit-scrollbar-track
+    background-color: #57b846
+
+  &::-webkit-scrollbar-thumb
+    background-color: #57b846
+
+.multiselect.alt-input-error
+  border: 1px solid alt-warning !important
+  border-bottom: 2px solid alt-warning !important
+  border-radius: 0 !important
