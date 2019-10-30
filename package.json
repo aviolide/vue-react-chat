@@ -67,7 +67,7 @@
     "react-scripts": "3.0.1",
     "reflect-metadata": "^0.1.13",
     "selenium-webdriver": "^4.0.0-alpha.4",
-    "sequelize": "5.6.1",
+    "sequelize": "5.15.1",
     "socket.io": "^2.2.0",
     "v-tooltip": "^2.0.2",
     "weekstart": "^1.0.0"
