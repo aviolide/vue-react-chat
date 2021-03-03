@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "lodash": "^4.17.15",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "reflect-metadata": "^0.1.13",
     "svg-sprite-loader": "^4.1.6",
     "v-tooltip": "^2.0.2",
